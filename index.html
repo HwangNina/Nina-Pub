@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+  />
+    <script src="./assets/app.js" defer></script>
+    <script src="./assets/addList.js" defer></script>
+    <title>Nina's Pub</title>
+</head>
+<body>
+    <section class="main">
+        <div id="modal_back" class="modal_back_none">
+            <div class="modal_front">
+                <h3 class="modal_text">Calling a staff...</h3>
+            </div>
+        </div>
+        <h1>Nina's Pub</h1>
+        <ul class="main-categories">
+            <li class="category"><button class="category-btn" id="category-btn__all">All</button></li>
+            <li class="category"><button class="category-btn" id="category-btn__pizza">Pizza</button></li>
+            <li class="category"><button class="category-btn" id="category-btn__burger">Burger</button></li>
+            <li class="category"><button class="category-btn" id="category-btn__salad">Salad</button></li>
+            <li class="category"><button class="category-btn" id="category-btn__beer">Beer</button></li>
+        </ul>
+        <div id="main-menu" class="menu_all">
+
+        </div>
+        <div class="main-order">
+            <div class="order_left">
+                    <button id="staff_btn" class="botton_btn">Call the Staff</button>
+            </div>
+            <div class="order_right">
+                <ul class="order_right--list">
+                    <li class="order_right--btn"><button id="cart_btn" class="botton_btn">Cart</button></li>
+                    <li class="order_right--btn"><button id="bill_btn" class="botton_btn">Bill</button></li>
+                    <li class="order_right--btn"><button id="order_btn" class="botton_btn">Order</button></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
